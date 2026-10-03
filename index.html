@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Boyfriend Day, Zidan 🤍</title>
+
+<!-- =========================
+     GOOGLE FONTS
+========================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+
+<style>
+
+/* =========================
+   RESET & LIGHT THEME BASE
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#fcfbf9;
+    color:#222222;
+
+    font-family:'Inter', sans-serif;
+
+    overflow-x:hidden;
+}
+
+
+/* =========================
+   BACKGROUND (LIGHT GRADIENTS)
+========================= */
+
+body::before{
+    content:"";
+
+    position:fixed;
+    inset:0;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(255, 182, 193, .25),
+            transparent 35%
+        ),
+
+        radial-gradient(
+            circle at 80% 70%,
+            rgba(230, 215, 255, .25),
+            transparent 35%
+        );
+
+    pointer-events:none;
+
+    z-index:-2;
+}
+
+
+body::after{
+    content:"";
+
+    position:fixed;
+    inset:0;
+
+    background:
+        linear-gradient(
+            rgba(255,255,255,.2),
+            rgba(250,248,245,.6)
+        );
+
+    pointer-events:none;
+
+    z-index:-1;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+#websiteContent{
+    display:block;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px 25px;
+
+    position:relative;
+}
+
+
+.hero-label{
+    font-size:10px;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    color:#777777;
+
+    margin-bottom:25px;
+
+    animation:fadeUp 1s ease both;
+}
+
+
+.hero h1{
+    font-family:'DM Serif Display', serif;
+
+    font-size:clamp(
+        50px,
+        13vw,
+        100px
+    );
+
+    font-weight:400;
+
+    line-height:.95;
+
+    color:#111111;
+
+    animation:fadeUp 1s ease .1s both;
+}
+
+
+.hero h1 span{
+    color:#666666;
+}
+
+
+.hero-sub{
+    max-width:500px;
+
+    color:#666666;
+
+    margin-top:25px;
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    animation:fadeUp 1s ease .2s both;
+}
+
+
+.hero-from{
+    margin-top:30px;
+
+    font-size:12px;
+
+    letter-spacing:3px;
+
+    color:#888888;
+
+    text-transform:uppercase;
+
+    animation:fadeUp 1s ease .3s both;
+}
+
+
+.hero-from strong{
+    color:#111111;
+}
+
+
+/* =========================
+   HERO MUSIC (LIGHT CARD)
+========================= */
+
+.hero-music{
+    width:100%;
+
+    max-width:430px;
+
+    margin-top:40px;
+
+    padding:22px 22px 20px;
+
+    background:
+        rgba(255, 255, 255, 0.7);
+
+    border:1px solid rgba(0,0,0,.08);
+
+    border-radius:22px;
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.06);
+
+    text-align:left;
+
+    animation:
+        fadeUp 1s ease .4s both;
+}
+
+
+.music-label{
+    font-size:9px;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    color:#888888;
+
+    margin-bottom:9px;
+}
+
+
+.music-title{
+    font-family:'DM Serif Display',serif;
+
+    font-size:26px;
+
+    color:#222222;
+}
+
+
+.music-subtitle{
+    font-size:11px;
+
+    color:#777777;
+
+    margin-top:5px;
+
+    margin-bottom:17px;
+}
+
+
+.hero-music audio{
+    width:100%;
+
+    height:38px;
+
+    opacity:.9;
+}
+
+
+/* =========================
+   SCROLL
+========================= */
+
+.scroll{
+    position:absolute;
+
+    bottom:28px;
+
+    font-size:10px;
+
+    letter-spacing:3px;
+
+    color:#999999;
+
+    animation:
+        scrollPulse 2s infinite;
+}
+
+
+@keyframes scrollPulse{
+
+    0%,100%{
+        opacity:.4;
+        transform:translateY(0);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateY(5px);
+    }
+
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section{
+    padding:100px 20px;
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+
+.section-label{
+    font-size:10px;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    color:#888888;
+
+    margin-bottom:20px;
+}
+
+
+.section-title{
+    font-family:'DM Serif Display', serif;
+
+    font-size:45px;
+
+    font-weight:400;
+
+    margin-bottom:30px;
+
+    line-height:1.05;
+
+    color:#111111;
+}
+
+
+/* =========================
+   LETTER (LIGHT CARD)
+========================= */
+
+.letter{
+    background:
+        rgba(255,255,255,.85);
+
+    border:
+        1px solid rgba(0,0,0,.06);
+
+    padding:35px 28px;
+
+    border-radius:25px;
+
+    line-height:2;
+
+    color:#444444;
+
+    font-size:14px;
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.04);
+}
+
+
+.letter p{
+    margin-bottom:20px;
+}
+
+
+.signature{
+    margin-top:30px;
+
+    font-family:'DM Serif Display', serif;
+
+    font-size:27px;
+
+    color:#111111;
+}
+
+
+/* =========================
+   PHOTO GRID
+========================= */
+
+.photo-grid{
+    display:grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:12px;
+}
+
+
+.photo{
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    background:#f0ece9;
+
+    border:
+        1px solid rgba(0,0,0,.05);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.03);
+}
+
+
+.photo:first-child{
+    grid-column:span 2;
+}
+
+
+.photo img{
+    width:100%;
+
+    height:100%;
+
+    min-height:260px;
+
+    object-fit:cover;
+
+    display:block;
+
+    filter:
+        brightness(.95)
+        saturate(.9);
+
+    transition:
+        transform .7s ease,
+        filter .7s ease;
+}
+
+
+.photo:hover img{
+    transform:scale(1.06);
+
+    filter:
+        brightness(1)
+        saturate(1);
+}
+
+
+/* =========================
+   PHOTO OVERLAY
+========================= */
+
+.photo::after{
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,.15),
+            transparent 50%
+        );
+
+    pointer-events:none;
+}
+
+
+/* =========================
+   FINAL
+========================= */
+
+.final{
+    min-height:85vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px 25px;
+}
+
+
+.final h2{
+    font-family:'DM Serif Display',serif;
+
+    font-size:
+        clamp(
+            45px,
+            11vw,
+            80px
+        );
+
+    font-weight:400;
+
+    line-height:1;
+
+    color:#111111;
+}
+
+
+.final p{
+    max-width:450px;
+
+    color:#666666;
+
+    margin-top:25px;
+
+    line-height:1.8;
+
+    font-size:13px;
+}
+
+
+.final .heart{
+    margin-top:35px;
+
+    font-size:32px;
+
+    color:#e25858;
+
+    animation:
+        pulse 1.8s infinite;
+}
+
+
+@keyframes pulse{
+
+    0%,100%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.18);
+    }
+
+}
+
+
+/* =========================
+   FLOATING HEARTS (LIGHT MODE)
+========================= */
+
+.heart-float{
+    position:fixed;
+
+    bottom:-20px;
+
+    color:
+        rgba(226, 88, 88, 0.35);
+
+    pointer-events:none;
+
+    animation:
+        floatUp linear forwards;
+
+    z-index:1;
+}
+
+
+@keyframes floatUp{
+
+    0%{
+        transform:
+            translateY(0)
+            scale(.7);
+
+        opacity:0;
+    }
+
+
+    20%{
+        opacity:1;
+    }
+
+
+    100%{
+        transform:
+            translateY(-110vh)
+            scale(1.2);
+
+        opacity:0;
+    }
+
+}
+
+
+/* =========================
+   FADE UP
+========================= */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+
+        transform:
+            translateY(20px);
+    }
+
+    to{
+        opacity:1;
+
+        transform:
+            translateY(0);
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:600px){
+
+    .hero{
+        padding:
+            45px 18px;
+    }
+
+
+    .hero-label{
+        letter-spacing:4px;
+
+        margin-bottom:20px;
+    }
+
+
+    .hero-sub{
+        font-size:13px;
+
+        max-width:340px;
+    }
+
+
+    .hero-from{
+        margin-top:25px;
+    }
+
+
+    .hero-music{
+        max-width:360px;
+
+        margin-top:32px;
+
+        padding:
+            20px 18px 18px;
+    }
+
+
+    .music-title{
+        font-size:24px;
+    }
+
+
+    section{
+        padding:
+            80px 18px;
+    }
+
+
+    .section-title{
+        font-size:40px;
+    }
+
+
+    .photo-grid{
+        gap:9px;
+    }
+
+
+    .photo{
+        border-radius:16px;
+    }
+
+
+    .photo img{
+        min-height:210px;
+    }
+
+
+    .letter{
+        padding:
+            27px 22px;
+
+        font-size:13px;
+    }
+
+
+    .final{
+        min-height:80vh;
+    }
+
+}
+
+
+/* =========================
+   EXTRA SMALL SCREEN
+========================= */
+
+@media(max-width:380px){
+
+    .hero h1{
+        font-size:48px;
+    }
+
+
+    .hero-music{
+        padding:
+            18px 15px;
+    }
+
+
+    .section-title{
+        font-size:36px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     WEBSITE
+========================= -->
+
+<div id="websiteContent">
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<div class="hero">
+
+
+    <div class="hero-label">
+        Boyfriend Day · 2026
+    </div>
+
+
+    <h1>
+        Happy<br>
+
+        <span>
+            Boyfriend Day,
+        </span>
+
+        <br>
+
+        Zidan.
+    </h1>
+
+
+    <p class="hero-sub">
+
+        To the person who somehow makes
+        ordinary days feel a little more special.
+
+    </p>
+
+
+    <div class="hero-from">
+
+        from
+
+        <strong>
+            Ama
+        </strong>
+
+    </div>
+
+
+    <!-- =========================
+         MUSIC
+    ========================= -->
+
+    <div class="hero-music">
+
+
+        <div class="music-label">
+            ✦ a song for you
+        </div>
+
+
+        <div class="music-title">
+            About You
+        </div>
+
+
+        <div class="music-subtitle">
+            press play & listen with me ♡
+        </div>
+
+
+        <audio
+            id="music"
+            controls
+        >
+
+            <source
+                src="aboutyou.mp3"
+                type="audio/mpeg"
+            >
+
+            Your browser does not support
+            the audio element.
+
+        </audio>
+
+
+    </div>
+
+
+    <div class="scroll">
+        ↓ scroll slowly
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================
+     LETTER
+========================= -->
+
+<section>
+
+
+    <div class="section-label">
+        01 · a little letter
+    </div>
+
+
+    <div class="section-title">
+        For you.
+    </div>
+
+
+    <div class="letter">
+
+
+        <p>
+            —For you:<br>
+            happy boyfriend day to my dearest boy, Zidan &lt;3
+        </p>
+
+
+        <p>
+
+            Zi, i just want to remind you how much you mean to me. aku bersyukur banget bisa kenal kamu dan punya kamu di hidup aku. entah kenapa, setiap hal kecil tentang kamu selalu punya caranya sendiri buat bikin aku makin sayang. i love your laugh, the way you treat me, the little things you do for me, and especially the way you always try to understand me.
+
+        </p>
+
+
+        <p>
+
+            Thank you for being so patient and gentle with me, for listening to all my random stories, and for making even the simplest moments feel special. aku mungkin nggak selalu bisa menunjukkan rasa sayangku dengan sempurna, tapi please know that i love you with all my heart. kamu nggak perlu jadi siapa-siapa selain dirimu sendiri, karena zidan yang aku kenal sekarang sudah cukup untuk membuatku merasa beruntung.
+
+        </p>
+
+
+        <p>
+
+            I hope we can keep making more memories together, laughing over stupid things, and being there for each other through everything. thank you for being my favorite person and my little piece of home. i love you so, so much, zidan. happy boyfriend day, zi. &lt;3
+
+        </p>
+
+
+        <div class="signature">
+            — Love, ama ♡
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     PHOTOS
+========================= -->
+
+<section>
+
+
+    <div class="section-label">
+        02 · our little memories
+    </div>
+
+
+    <div class="section-title">
+
+        Five moments,<br>
+        one story.
+
+    </div>
+
+
+    <div class="photo-grid">
+
+
+        <div class="photo">
+
+            <img
+                src="foto1.jpg"
+                alt="Memory 1"
+            >
+
+        </div>
+
+
+        <div class="photo">
+
+            <img
+                src="foto2.jpg"
+                alt="Memory 2"
+            >
+
+        </div>
+
+
+        <div class="photo">
+
+            <img
+                src="foto3.jpg"
+                alt="Memory 3"
+            >
+
+        </div>
+
+
+        <div class="photo">
+
+            <img
+                src="foto4.jpg"
+                alt="Memory 4"
+            >
+
+        </div>
+
+
+        <div class="photo">
+
+            <img
+                src="foto5.jpg"
+                alt="Memory 5"
+            >
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     FINAL
+========================= -->
+
+<div class="final">
+
+
+    <div class="section-label">
+        03 · one last thing
+    </div>
+
+
+    <h2>
+
+        I'm glad<br>
+        it's you.
+
+    </h2>
+
+
+    <p>
+
+        Out of all the people in this world,
+        somehow our paths crossed.
+
+        And honestly, that's one of my favorite
+        things that ever happened to me.
+
+    </p>
+
+
+    <div class="heart">
+        ♡
+    </div>
+
+
+    <p style="margin-top:20px;">
+
+        Happy Boyfriend Day, Zidan.<br>
+
+        Love, Ama.
+
+    </p>
+
+
+</div>
+
+
+</div>
+
+
+
+<script>
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+function createHeart(){
+
+    const heart =
+        document.createElement("div");
+
+
+    heart.className =
+        "heart-float";
+
+
+    heart.innerHTML =
+        Math.random() > .5
+        ? "♡"
+        : "♥";
+
+
+    heart.style.left =
+        Math.random() * 100 + "vw";
+
+
+    heart.style.fontSize =
+        (10 + Math.random() * 16) + "px";
+
+
+    heart.style.animationDuration =
+        (7 + Math.random() * 7) + "s";
+
+
+    document.body.appendChild(heart);
+
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    },15000);
+
+}
+
+
+/* =========================
+   START FLOATING HEARTS
+========================= */
+
+setInterval(
+    createHeart,
+    900
+);
+
+
+/* =========================
+   MUSIC VOLUME
+========================= */
+
+const music =
+    document.getElementById("music");
+
+if(music){
+
+    music.volume = 0.45;
+
+}
+
+</script>
+
+
+</body>
+</html>
